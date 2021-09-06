@@ -18,6 +18,9 @@
     "react-scripts": "3.4.1"
   },
   "scripts": {
+
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build", 
     "start": "PORT=3004 react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -37,5 +40,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
